@@ -1,4 +1,4 @@
-# ysoserial-payload-generator
+# ysoserial payload generator
 Outputs ysoserial payloads to file(s). Files are intended to be used by BurpSuite Intruder.
 Payload is based on user supplied windows and/or linux command. For each supplied command a file will be created. The payloads will be new line separated and may be base64 encoded if desired. Note, no testing of intruded with the unencoded output has been done. Use at your own risk.
 The list of payloads available was manually generated from ysoserial-master-6eca5bc740-1 on 26 Dec 2020. Future revisions are intended to parse the help output of the user supplied ysoserial jar to obtain possible payloads.
